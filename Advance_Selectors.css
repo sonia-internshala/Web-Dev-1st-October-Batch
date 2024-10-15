@@ -1,0 +1,55 @@
+/* descendants
+represented by space " "
+nth-level-down
+we can skip unimportant level */
+/* h1{
+    color:yellow;
+} */
+ /* section span{
+    color:yellow;
+ } */
+/* 
+Child selector
+represented by greater than >
+lecel by level
+we can't skip any level */
+
+/* section>article>div>p>span{
+    background-color: blue;
+} */
+
+/* Ques?is is possible to combine to child+descendants?
+yes */
+
+/* section>article span{
+    color: blueviolet;
+} */
+
+
+/* section .art h1{
+    background-color: aqua;
+} */
+
+/* 
+adjacent sibling        + immediate :right */
+
+/* h1 + p{
+    color:blue;
+} */
+
+/* general sibling        ~  all right */
+/* h1 ~ p{
+    color:brown;
+} */
+/* section ~ div p {
+    color: red;
+} */
+
+/* .class1 ~ .class3{
+    color:blue;
+} */
+
+/* article h1 + p{
+    color:blue;
+} */
+
